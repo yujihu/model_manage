@@ -1,0 +1,46 @@
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #edeff3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: SIMSUN;
+  src: url(//s3plus.meituan.net/v1/mss_0ddf9b250a1b4db28fb1d9ad764b2853/files/model_manage/SimSun.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: ARIALUNI;
+  src: url(//s3plus.meituan.net/v1/mss_0ddf9b250a1b4db28fb1d9ad764b2853/files/model_manage/Arialuni.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: MEITUAN;
+  src: url(//s3plus.meituan.net/v1/mss_0ddf9b250a1b4db28fb1d9ad764b2853/files/model_manage/Meituan.TTF);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: MEITUAN;
+  src: url(//s3plus.meituan.net/v1/mss_0ddf9b250a1b4db28fb1d9ad764b2853/files/model_manage/Meituan-Bold.TTF);
+  font-weight: bold;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
